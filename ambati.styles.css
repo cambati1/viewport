@@ -299,7 +299,7 @@ img {
   float: left;
 }
 
-@media (max-width: 599px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
   header,
   footer {
@@ -326,10 +326,15 @@ img {
   #eight {
     grid-column: 1/3;
   }
+
+  img {
+    width: 200px;
+    max-width: 200px;
+  }
 }
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
-@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
   header,
   footer {
@@ -343,6 +348,7 @@ img {
 
   section {
     background-color: var(--light-gray);
+    color: var(--black);
   }
 
   #one {
@@ -361,7 +367,7 @@ img {
 }
 
 /* ---------- LARGE SCREEN STYLES ---------- */
-@media (min-width: 900px) and (max-width: 1919px) {
+@media (min-width: 1025px) and (max-width: 1380px) {
 
   header,
   footer {
@@ -399,10 +405,10 @@ img {
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-@media (min-width: 600px) {
+@media (min-width: 620px) {
   img {
     width: fit-content;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
   }
 }
@@ -410,7 +416,7 @@ img {
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-@media (min-width: 1920px) {
+@media (min-width: 1381px) {
 
   header,
   footer {
