@@ -89,7 +89,6 @@ video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -161,9 +160,9 @@ table {
 
   /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
   body {
-    background-color: #333;
+    background-color: var(--dark-gray);
     /* Dark gray background for dark mode */
-    color: #fff;
+    color: var(--white);
     /* Light text color for contrast */
   }
 }
